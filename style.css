@@ -1,0 +1,65 @@
+/* Универсальный селектор */
+* {
+    color: black; /* Устанавливает цвет текста по умолчанию */
+}
+
+/* Селекторы по тегу */
+h1 {
+    color: red;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: pink;
+}
+
+/* Селекторы по классу */
+.link {
+    color: green;
+}
+
+.special-link {
+    color: blue;
+}
+/* Псевдокласс для третьего элемента списка */
+.nav-list li:nth-child(3) a {
+    color: yellow;
+}
+
+#first-post h2,
+#first-post p {
+    color: orange;
+}
+
+.post:nth-of-type(2) h2,
+.post:nth-of-type(2) p {
+    color: purple;
+}
+
+.color-list li:nth-child(1) {
+    color: gray;
+}
+
+.color-list li:nth-child(2) {
+    color: brown;
+}
+
+.color-list .highlighted {
+    color: black;
+}
+
+.important-widget h3,
+.important-widget .note {
+    color: maroon;
+}
+.submit-btn {
+    color: white;
+    background-color: black; /* Чтобы текст был виден на темном фоне */
+}
+
+.form input[type="text"] {
+    color: black;
+}
